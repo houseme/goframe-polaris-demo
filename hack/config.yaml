@@ -1,0 +1,15 @@
+
+# CLI tool, only in development environment.
+# https://goframe.org/pages/viewpage.action?pageId=3673173
+gfcli:
+  gen:
+    dao:
+      - link: "mysql:root:root@tcp(127.0.0.1:3306)/test"
+        tables: "user"
+        removePrefix: "gf_"
+        descriptionTag: true
+        noModelComment: true
+
+    pbentity:
+      - link: "mysql:root:root@tcp(127.0.0.1:3306)/test"
+        tables: "user"
