@@ -26,7 +26,7 @@ var (
 			if err := api.SetLoggersDir("./manifest/logs/polaris/log"); err != nil {
 				g.Log().Fatal(context.Background(), err)
 			}
-			grpcx.Resolver.Register(polaris.NewWithConfig(conf, polaris.WithTTL(10)))
+			grpcx.Resolver.Register(polaris.NewWithConfig(conf, polaris.WithTTL(3)))
 
 			c := grpcx.Server.NewConfig()
 			c.Options = append(c.Options, []grpc.ServerOption{

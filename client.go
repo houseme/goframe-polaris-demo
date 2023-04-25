@@ -23,20 +23,20 @@ func main() {
 	if err := api.SetLoggersDir("./manifest/logs/polaris/log"); err != nil {
 		g.Log().Fatal(ctx, err)
 	}
-	grpcx.Resolver.Register(polaris.NewWithConfig(conf, polaris.WithTTL(10)))
+	grpcx.Resolver.Register(polaris.NewWithConfig(conf, polaris.WithTTL(3)))
 	var (
-		conn   = grpcx.Client.MustNewGrpcClientConn("demo", grpcx.Balancer.WithRandom())
+		conn   = grpcx.Client.MustNewGrpcClientConn("GoFramePolarisDemo", grpcx.Balancer.WithRandom())
 		client = v1.NewUserClient(conn)
 	)
 
 	g.Log().Infof(ctx, `outgoing data: %v`, grpcx.Ctx.OutgoingMap(ctx).Map())
-	res, err := client.Create(ctx, &v1.CreateReq{Nickname: "houseme", Passport: "123456", Password: "123456"})
+	res, err := client.Create(ctx, &v1.CreateReq{Nickname: "houseme", Passport: "12345691", Password: "123456"})
 	if err != nil {
 		g.Log().Error(ctx, err)
 		return
 	}
 	g.Log().Debug(ctx, "Response:", res)
-	r, err := client.GetOne(ctx, &v1.GetOneReq{Id: 1})
+	r, err := client.GetOne(ctx, &v1.GetOneReq{Id: 5})
 	if err != nil {
 		g.Log().Error(ctx, err)
 		return

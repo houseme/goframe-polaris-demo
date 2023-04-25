@@ -20,7 +20,9 @@ message CreateReq {
     string Password = 2; // v: required
     string Nickname = 3; // v: required
 }
-message CreateRes {}
+message CreateRes {
+    uint64 Id = 1;
+}
 
 message GetOneReq {
     uint64 Id = 1; // v: required
