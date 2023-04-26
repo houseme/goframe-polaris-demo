@@ -2,6 +2,7 @@ package user
 
 import (
 	"context"
+	"fmt"
 
 	"github.com/gogf/gf/contrib/rpc/grpcx/v2"
 	"github.com/gogf/gf/v2/frame/g"
@@ -36,6 +37,7 @@ func (*Controller) Create(ctx context.Context, req *v1.CreateReq) (res *v1.Creat
 	res = &v1.CreateRes{
 		Id: uint64(lastInsertID),
 	}
+	fmt.Println(g.Cfg().MustData(ctx))
 	return
 }
 

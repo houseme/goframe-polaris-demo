@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/gogf/gf/contrib/drivers/mysql/v2 v2.4.0
-	github.com/gogf/gf/contrib/registry/polaris/v2 v2.4.1-0.20230426111203-71d975043f31
+	github.com/gogf/gf/contrib/registry/polaris/v2 v2.4.1-0.20230426122047-4c6ebe78083a
 	github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.4.0
 	github.com/gogf/gf/v2 v2.4.0
 	github.com/polarismesh/polaris-go v1.4.2
@@ -46,6 +46,7 @@ require (
 	github.com/prometheus/common v0.32.1 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
+	github.com/stretchr/testify v1.8.1 // indirect
 	go.opentelemetry.io/otel v1.10.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.7.0 // indirect
 	go.opentelemetry.io/otel/trace v1.10.0 // indirect
@@ -57,7 +58,7 @@ require (
 	golang.org/x/text v0.8.0 // indirect
 	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
 //replace (
