@@ -33,6 +33,9 @@ func (*Controller) Create(ctx context.Context, req *v1.CreateReq) (res *v1.Creat
 		return nil, err
 	}
 	g.Log().Debug(ctx, "lastInsertId:", lastInsertID)
+	res = &v1.CreateRes{
+		Id: uint64(lastInsertID),
+	}
 	return
 }
 

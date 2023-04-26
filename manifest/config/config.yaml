@@ -1,8 +1,8 @@
 # GRPC Server.
 grpc:
-  address: "192.168.124.12:8199"
-  name:    "GoFramePolarisDemo"
-  logPath: ""
+  address: "192.168.110.30:8199"
+  name:    "GoFrame-Polaris-Demo"
+  logPath: "./manifest/logs/server"
   logStdout: true
   errorStack: true
   errorLogEnabled: true
@@ -12,14 +12,16 @@ grpc:
 
 # Global logging.
 logger:
+  path: "./manifest/logs/default"
   level: "all"
-  stdout: true
+  stdout: false
 
 # Database.
 database:
   logger:
+    path: "./manifest/logs/sql"
     level: "all"
-    stdout: true
+    stdout: false
 
   default:
     link: "mysql:root:root@tcp(127.0.0.1:3306)/test"
