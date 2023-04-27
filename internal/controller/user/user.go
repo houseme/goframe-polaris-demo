@@ -43,7 +43,7 @@ func (*Controller) Create(ctx context.Context, req *v1.CreateReq) (res *v1.Creat
 
 // GetOne user info
 func (*Controller) GetOne(ctx context.Context, req *v1.GetOneReq) (res *v1.GetOneRes, err error) {
-	user, err := service.User().GetById(ctx, req.Id)
+	user, err := service.User().GetByID(ctx, req.Id)
 	if err != nil {
 		return nil, err
 	}
@@ -63,6 +63,6 @@ func (*Controller) GetList(ctx context.Context, req *v1.GetListReq) (res *v1.Get
 
 // Delete user info
 func (*Controller) Delete(ctx context.Context, req *v1.DeleteReq) (res *v1.DeleteRes, err error) {
-	err = service.User().DeleteById(ctx, req.Id)
+	err = service.User().DeleteByID(ctx, req.Id)
 	return
 }

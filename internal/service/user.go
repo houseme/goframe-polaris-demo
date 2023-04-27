@@ -13,8 +13,8 @@ import (
 
 type (
 	IUser interface {
-		GetById(ctx context.Context, uid uint64) (*pbentity.User, error)
-		DeleteById(ctx context.Context, uid uint64) error
+		GetByID(ctx context.Context, uid uint64) (*pbentity.User, error)
+		DeleteByID(ctx context.Context, uid uint64) error
 	}
 )
 

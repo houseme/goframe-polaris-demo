@@ -7,7 +7,7 @@ require (
 	github.com/gogf/gf/contrib/registry/polaris/v2 v2.4.1-0.20230426122047-4c6ebe78083a
 	github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.4.0
 	github.com/gogf/gf/v2 v2.4.0
-	github.com/polarismesh/polaris-go v1.4.2
+	github.com/polarismesh/polaris-go v1.4.3
 	google.golang.org/grpc v1.54.0
 	google.golang.org/protobuf v1.30.0
 )
@@ -60,7 +60,3 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-//replace (
-//	github.com/gogf/gf/contrib/registry/polaris/v2 => ../../houseme/gf/contrib/registry/polaris
-//)

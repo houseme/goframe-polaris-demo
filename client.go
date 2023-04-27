@@ -45,6 +45,6 @@ func main() {
 		g.Log().Error(ctx, err)
 		return
 	}
-	g.Log().Debug(ctx, "Response:", r)
+	g.Log().Debug(ctx, "Response:", r, " user string:", r.String(), " createTime:", r.GetUser().GetCreateAt().AsTime().String())
 	fmt.Println("Response:", r)
 }

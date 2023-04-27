@@ -1,6 +1,6 @@
 # GRPC Server.
 grpc:
-  address: "192.168.124.12:8199"
+  address: "192.168.110.30:8199"
   name:    "GoFrame-Polaris-Demo"
   logPath: "./manifest/logs/server"
   logStdout: true
