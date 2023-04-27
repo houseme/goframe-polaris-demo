@@ -40,7 +40,7 @@ func main() {
 	}
 	g.Log().Debug(ctx, "Response:", res)
 	fmt.Println("Response:", res)
-	r, err := client.GetOne(ctx, &v1.GetOneReq{Id: 5})
+	r, err := client.GetOne(ctx, &v1.GetOneReq{Id: res.GetId()})
 	if err != nil {
 		g.Log().Error(ctx, err)
 		return

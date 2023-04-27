@@ -38,15 +38,15 @@ func (s *sUser) GetByID(ctx context.Context, uid uint64) (*pbentity.User, error)
 		Passport: userEntity.Passport,
 		Nickname: userEntity.Nickname,
 		Password: userEntity.Password,
-		CreateAt: timestamppb.New(time.Unix(userEntity.CreateAt.Unix(), userEntity.CreateAt.UnixNano()%10000000*100)),
-		UpdateAt: timestamppb.New(time.Unix(userEntity.UpdateAt.Unix(), userEntity.UpdateAt.UnixNano()%10000000*100)),
+		CreateAt: timestamppb.New(time.UnixMicro(userEntity.CreateAt.UnixMicro())),
+		UpdateAt: timestamppb.New(time.UnixMicro(userEntity.UpdateAt.UnixMicro())),
 	}
 	if userEntity.DeleteAt != nil {
-		user.DeleteAt = timestamppb.New(time.Unix(userEntity.DeleteAt.Unix(), userEntity.DeleteAt.UnixNano()%10000000*100))
+		user.DeleteAt = timestamppb.New(time.UnixMicro(userEntity.DeleteAt.UnixMicro()))
 	}
 	g.Log().Debug(ctx, "user:", user)
 	g.Log().Debug(ctx, "userEntity:", userEntity)
-	g.Log().Debug(ctx, "userEntity.CreateAt Unix:", userEntity.CreateAt.Unix(), " UnixNano:", userEntity.CreateAt.UnixNano(), " nsec", userEntity.CreateAt.UnixNano()%10000000*100)
+	g.Log().Debug(ctx, "userEntity.CreateAt Unix:", userEntity.CreateAt.Unix(), " UnixMicro:", userEntity.CreateAt.UnixMicro(), " nsec", userEntity.CreateAt.UnixNano()%1e9)
 	return user, nil
 }
 
