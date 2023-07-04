@@ -21,7 +21,7 @@ var (
 		Usage: "main",
 		Brief: "start http server",
 		Func: func(ctx context.Context, parser *gcmd.Parser) (err error) {
-			conf := config.NewDefaultConfiguration([]string{"183.47.111.80:8091"})
+			conf := config.NewDefaultConfiguration([]string{"192.168.110.30:8091"})
 			conf.Consumer.LocalCache.SetPersistDir("./manifest/logs/polaris/backup")
 			if err := api.SetLoggersDir("./manifest/logs/polaris/log"); err != nil {
 				g.Log().Fatal(context.Background(), err)

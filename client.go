@@ -6,6 +6,7 @@ import (
 	"github.com/gogf/gf/contrib/registry/polaris/v2"
 	"github.com/gogf/gf/contrib/rpc/grpcx/v2"
 	"github.com/gogf/gf/v2/frame/g"
+	"github.com/gogf/gf/v2/net/gsel"
 	"github.com/gogf/gf/v2/os/gctx"
 	"github.com/gogf/gf/v2/util/grand"
 	"github.com/polarismesh/polaris-go/api"
@@ -20,13 +21,14 @@ func main() {
 			"UserId":   "1000",
 			"UserName": "john",
 		})
-		conf = config.NewDefaultConfiguration([]string{"183.47.111.80:8091"})
+		conf = config.NewDefaultConfiguration([]string{"192.168.110.30:8091"})
 	)
 	conf.Consumer.LocalCache.SetPersistDir("./manifest/logs/polaris/backup")
 	if err := api.SetLoggersDir("./manifest/logs/polaris/log"); err != nil {
 		g.Log().Fatal(ctx, err)
 	}
 	grpcx.Resolver.Register(polaris.NewWithConfig(conf, polaris.WithTTL(5)))
+	gsel.SetBuilder(gsel.NewBuilderRoundRobin())
 	var (
 		conn   = grpcx.Client.MustNewGrpcClientConn("GoFrame-Polaris-Demo", grpcx.Balancer.WithRandom())
 		client = v1.NewUserClient(conn)
