@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-	conf := config.NewDefaultConfiguration([]string{"192.168.110.30:8091"})
+	conf := config.NewDefaultConfiguration([]string{"127.0.0.1:8091"})
 	conf.Consumer.LocalCache.SetPersistDir("./manifest/logs/polaris/backup")
 	if err := api.SetLoggersDir("./manifest/logs/polaris/log"); err != nil {
 		g.Log().Fatal(context.Background(), err)
@@ -24,7 +24,7 @@ func main() {
 	gsvc.SetRegistry(polaris.NewWithConfig(conf, polaris.WithTTL(10)))
 	gsel.SetBuilder(gsel.NewBuilderRoundRobin())
 
-	for i := 0; i < 100; i++ {
+	for i := 0; i < 1000; i++ {
 		res, err := g.Client().Get(gctx.New(), `http://hello-world.svc/`)
 		if err != nil {
 			panic(err)

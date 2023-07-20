@@ -1,0 +1,5 @@
+# Global logging.
+logger:
+  path: "./manifest/logs/html"
+  level: "all"
+  stdout: false

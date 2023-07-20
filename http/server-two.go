@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	conf := config.NewDefaultConfiguration([]string{"192.168.110.30:8091"})
+	conf := config.NewDefaultConfiguration([]string{"127.0.0.1:8091"})
 	conf.Consumer.LocalCache.SetPersistDir("./manifest/logs/polaris/backup")
 	if err := api.SetLoggersDir("./manifest/logs/polaris/log"); err != nil {
 		g.Log().Fatal(context.Background(), err)

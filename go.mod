@@ -3,13 +3,13 @@ module github.com/houseme/goframe-polaris-demo
 go 1.17
 
 require (
-	github.com/gogf/gf/contrib/drivers/mysql/v2 v2.4.4
-	github.com/gogf/gf/contrib/registry/etcd/v2 v2.4.4
-	github.com/gogf/gf/contrib/registry/polaris/v2 v2.4.5-0.20230704103206-1402205651b2
-	github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.4.4
-	github.com/gogf/gf/v2 v2.4.5-0.20230704103206-1402205651b2
+	github.com/gogf/gf/contrib/drivers/mysql/v2 v2.5.0
+	github.com/gogf/gf/contrib/registry/etcd/v2 v2.5.0
+	github.com/gogf/gf/contrib/registry/polaris/v2 v2.5.0
+	github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.5.0
+	github.com/gogf/gf/v2 v2.5.0
 	github.com/polarismesh/polaris-go v1.5.1
-	google.golang.org/grpc v1.56.1
+	google.golang.org/grpc v1.56.2
 	google.golang.org/protobuf v1.31.0
 )
 
@@ -26,7 +26,7 @@ require (
 	github.com/go-logr/logr v1.2.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-sql-driver/mysql v1.7.1 // indirect
-	github.com/gogf/gf/contrib/registry/file/v2 v2.4.4 // indirect
+	github.com/gogf/gf/contrib/registry/file/v2 v2.5.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/uuid v1.3.0 // indirect
@@ -45,7 +45,7 @@ require (
 	github.com/natefinch/lumberjack v2.0.0+incompatible // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/polarismesh/specification v1.3.2-alpha.5 // indirect
+	github.com/polarismesh/specification v1.3.2 // indirect
 	github.com/prometheus/client_golang v1.16.0 // indirect
 	github.com/prometheus/client_model v0.4.0 // indirect
 	github.com/prometheus/common v0.44.0 // indirect
@@ -62,12 +62,12 @@ require (
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
-	golang.org/x/net v0.11.0 // indirect
-	golang.org/x/sys v0.9.0 // indirect
-	golang.org/x/text v0.10.0 // indirect
-	google.golang.org/genproto v0.0.0-20230629202037-9506855d4529 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20230629202037-9506855d4529 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20230629202037-9506855d4529 // indirect
+	golang.org/x/net v0.12.0 // indirect
+	golang.org/x/sys v0.10.0 // indirect
+	golang.org/x/text v0.11.0 // indirect
+	google.golang.org/genproto v0.0.0-20230717213848-3f92550aa753 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20230717213848-3f92550aa753 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20230717213848-3f92550aa753 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
