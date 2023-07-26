@@ -5,9 +5,9 @@ go 1.17
 require (
 	github.com/gogf/gf/contrib/drivers/mysql/v2 v2.5.0
 	github.com/gogf/gf/contrib/registry/etcd/v2 v2.5.0
-	github.com/gogf/gf/contrib/registry/polaris/v2 v2.5.0
+	github.com/gogf/gf/contrib/registry/polaris/v2 v2.5.1-0.20230725135047-b95cb3180d9e
 	github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.5.0
-	github.com/gogf/gf/v2 v2.5.0
+	github.com/gogf/gf/v2 v2.5.1-0.20230725135047-b95cb3180d9e
 	github.com/polarismesh/polaris-go v1.5.1
 	google.golang.org/grpc v1.56.2
 	google.golang.org/protobuf v1.31.0
@@ -17,7 +17,7 @@ require (
 	github.com/BurntSushi/toml v1.3.2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
-	github.com/clbanning/mxj/v2 v2.5.7 // indirect
+	github.com/clbanning/mxj/v2 v2.7.0 // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
 	github.com/dlclark/regexp2 v1.10.0 // indirect
@@ -38,7 +38,7 @@ require (
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
-	github.com/mattn/go-runewidth v0.0.14 // indirect
+	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
@@ -67,7 +67,7 @@ require (
 	golang.org/x/text v0.11.0 // indirect
 	google.golang.org/genproto v0.0.0-20230717213848-3f92550aa753 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20230717213848-3f92550aa753 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20230717213848-3f92550aa753 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20230725213213-b022f6e96895 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
