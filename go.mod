@@ -8,7 +8,7 @@ require (
 	github.com/gogf/gf/contrib/registry/polaris/v2 v2.5.4
 	github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.5.4
 	github.com/gogf/gf/v2 v2.5.4
-	github.com/polarismesh/polaris-go v1.5.5
+	github.com/polarismesh/polaris-go v1.5.8
 	google.golang.org/grpc v1.58.3
 	google.golang.org/protobuf v1.33.0
 )
