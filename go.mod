@@ -8,7 +8,7 @@ require (
 	github.com/gogf/gf/contrib/registry/polaris/v2 v2.8.3
 	github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.8.3
 	github.com/gogf/gf/v2 v2.8.3
-	github.com/polarismesh/polaris-go v1.5.8
+	github.com/polarismesh/polaris-go v1.6.0
 	google.golang.org/grpc v1.69.4
 	google.golang.org/protobuf v1.36.2
 )
@@ -47,7 +47,7 @@ require (
 	github.com/natefinch/lumberjack v2.0.0+incompatible // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/polarismesh/specification v1.5.4 // indirect
+	github.com/polarismesh/specification v1.5.5-alpha.1 // indirect
 	github.com/prometheus/client_golang v1.20.5 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.61.0 // indirect
