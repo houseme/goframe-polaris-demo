@@ -6,7 +6,7 @@ toolchain go1.24.1
 require (
 	github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.0
 	github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.0
-	github.com/gogf/gf/contrib/registry/polaris/v2 v2.8.3
+	github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.0
 	github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.8.3
 	github.com/gogf/gf/v2 v2.9.0
 	github.com/polarismesh/polaris-go v1.6.1
