@@ -8,7 +8,7 @@ require (
 	github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.3
 	github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.3
 	github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.3
-	github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.9.0
+	github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.9.3
 	github.com/gogf/gf/v2 v2.9.3
 	github.com/polarismesh/polaris-go v1.6.1
 	google.golang.org/grpc v1.75.0
@@ -30,7 +30,7 @@ require (
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-sql-driver/mysql v1.8.1 // indirect
-	github.com/gogf/gf/contrib/registry/file/v2 v2.9.0 // indirect
+	github.com/gogf/gf/contrib/registry/file/v2 v2.9.3 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/uuid v1.6.0 // indirect
