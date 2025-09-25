@@ -12,7 +12,7 @@ require (
 	github.com/gogf/gf/v2 v2.9.3
 	github.com/polarismesh/polaris-go v1.6.1
 	google.golang.org/grpc v1.75.1
-	google.golang.org/protobuf v1.36.8
+	google.golang.org/protobuf v1.36.9
 )
 
 require (
