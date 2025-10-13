@@ -258,8 +258,8 @@ github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.4 h1:9EpD9lPAQ58mb9EWfwl8gIkLaL
 github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.4/go.mod h1:mOa5w8vhJQi4+jRwJvV9o9jy/CsWyKEcdIGdqgXjCac=
 github.com/gogf/gf/contrib/registry/file/v2 v2.9.3 h1:7f+55KmwJzW0Kmam+N3VrLMlMkCTc5LTPDaZeElCLd0=
 github.com/gogf/gf/contrib/registry/file/v2 v2.9.3/go.mod h1:kOYsqBlbf6pElgfLyIEFN6FpXnSSdgkV4w+7+w/78do=
-github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.3 h1:4O8os0MLQM8SQZATP3oDPRfo/WflLEp9c3poVHxM+VY=
-github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.3/go.mod h1:Cf/iAcNPcxfBIPErvDrNyGGxnR0JK60y40Ng6u2qang=
+github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.4 h1:BsZRMGsSF6BCwHTBcKoeD0fCAFlABVc4ncn2OIhWqUM=
+github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.4/go.mod h1:Hr5p/QmRUEZLWgUwrHX9JkNfxin5sRSA+6oXnbksgjY=
 github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.9.3 h1:HoUu3a7t0iLI0/GbVP46rPHbrfBlKa6rfHsnCvry4+4=
 github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.9.3/go.mod h1:F5v+4GumRPIFZsAiz6H5QNoOiPM7cluMCvGF0zbzsGE=
 github.com/gogf/gf/v2 v2.9.4 h1:6vleEWypot9WBPncP2GjbpgAUeG6Mzb1YESb9nPMkjY=
