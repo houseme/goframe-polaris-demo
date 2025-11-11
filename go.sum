@@ -254,8 +254,8 @@ github.com/go-stack/stack v1.8.0/go.mod h1:v0f6uXyyMGvRgIKkXu+yp6POWl0qKG85gN/me
 github.com/godbus/dbus/v5 v5.0.4/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
 github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.5 h1:0+ZBYhi4sqwxXwL+hIBpp06a7G4m5nmjskQ3NNb8qYc=
 github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.5/go.mod h1:vyB7J/uJcLCrHD5lfFBzxhEEMkePIRzfhd33EcsuLa0=
-github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.4 h1:9EpD9lPAQ58mb9EWfwl8gIkLaLLw+ePzIOeowJTH5qc=
-github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.4/go.mod h1:mOa5w8vhJQi4+jRwJvV9o9jy/CsWyKEcdIGdqgXjCac=
+github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.5 h1:Ojg9PiDx6f36BLnYvKkWUVwYqYfRU9dUr6naNS/AviM=
+github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.5/go.mod h1:Oq/Vb+VDsJaIx54Wmscsal33IAy3J0g0AgcDwVp9Dkw=
 github.com/gogf/gf/contrib/registry/file/v2 v2.9.5 h1:dVcBRbsezO9M6b1yKbCmUg8sjn0an+50XRIVp7mexx0=
 github.com/gogf/gf/contrib/registry/file/v2 v2.9.5/go.mod h1:kjD3zKBDpoDxLbcbV2R3l67/QGjz61eVyfCeCSvxpvY=
 github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.5 h1:81MdyJ19FIOWUZ2iSEYEzDw3LQTX5l3NiFPXPtis/Gk=
