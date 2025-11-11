@@ -256,12 +256,12 @@ github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.4 h1:ntAPahCjQwQ79CC6tI67QDgj17
 github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.4/go.mod h1:/350+9clTW5ktUvF+hePMN9yDknB2ipslqcx3Y2rLDQ=
 github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.4 h1:9EpD9lPAQ58mb9EWfwl8gIkLaLLw+ePzIOeowJTH5qc=
 github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.4/go.mod h1:mOa5w8vhJQi4+jRwJvV9o9jy/CsWyKEcdIGdqgXjCac=
-github.com/gogf/gf/contrib/registry/file/v2 v2.9.4 h1:Y6L1j2xibCF3GE0JBFqbkTf1pF1Lg+t/jCuPdciw7L4=
-github.com/gogf/gf/contrib/registry/file/v2 v2.9.4/go.mod h1:SS7jhiJ50/2l4Y47KA7qjEEddjbQEhOEW67SAfRLdJ8=
+github.com/gogf/gf/contrib/registry/file/v2 v2.9.5 h1:dVcBRbsezO9M6b1yKbCmUg8sjn0an+50XRIVp7mexx0=
+github.com/gogf/gf/contrib/registry/file/v2 v2.9.5/go.mod h1:kjD3zKBDpoDxLbcbV2R3l67/QGjz61eVyfCeCSvxpvY=
 github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.5 h1:81MdyJ19FIOWUZ2iSEYEzDw3LQTX5l3NiFPXPtis/Gk=
 github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.5/go.mod h1:rYGj2Is71qnc9NpprkHqggNCnguGIVxBOaW8xghdoFU=
-github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.9.4 h1:8+I5vzrPRXZVtq3s/Y6cgsPRh3IKSJsxEp8s+DyCa2I=
-github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.9.4/go.mod h1:RMuVphL+vBvhZXmbgVTOgtn3n5dWPDWYwE6vHhil4DA=
+github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.9.5 h1:rE8o6KsyK49J1+YtbYfYT3we0HRl7FR+q9oSIN3/QtU=
+github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.9.5/go.mod h1:fHirh0Bsc/B+z/kATxMC2a4lGczyxz1rkik/eAlepSw=
 github.com/gogf/gf/v2 v2.9.5 h1:1scfOdHbMP854oQaiLejl+eL+c4xfuvtWmmZiDJxbKs=
 github.com/gogf/gf/v2 v2.9.5/go.mod h1:VUb5eyJKpvW77O/dXsbbLNO/Kjrg0UycIiq0lRiBjjo=
 github.com/gogo/protobuf v1.1.1/go.mod h1:r8qH/GZQm5c6nD/R0oafs1akxWv10x8SbQlK7atdtwQ=
