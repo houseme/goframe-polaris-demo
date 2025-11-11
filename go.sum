@@ -252,8 +252,8 @@ github.com/go-sql-driver/mysql v1.8.1 h1:LedoTUt/eveggdHS9qUFC1EFSa8bU2+1pZjSRpv
 github.com/go-sql-driver/mysql v1.8.1/go.mod h1:wEBSXgmK//2ZFJyE+qWnIsVGmvmEKlqwuVSjsCm7DZg=
 github.com/go-stack/stack v1.8.0/go.mod h1:v0f6uXyyMGvRgIKkXu+yp6POWl0qKG85gN/melR3HDY=
 github.com/godbus/dbus/v5 v5.0.4/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
-github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.4 h1:ntAPahCjQwQ79CC6tI67QDgj17NTWp+lMd1SaL2jJhs=
-github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.4/go.mod h1:/350+9clTW5ktUvF+hePMN9yDknB2ipslqcx3Y2rLDQ=
+github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.5 h1:0+ZBYhi4sqwxXwL+hIBpp06a7G4m5nmjskQ3NNb8qYc=
+github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.5/go.mod h1:vyB7J/uJcLCrHD5lfFBzxhEEMkePIRzfhd33EcsuLa0=
 github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.4 h1:9EpD9lPAQ58mb9EWfwl8gIkLaLLw+ePzIOeowJTH5qc=
 github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.4/go.mod h1:mOa5w8vhJQi4+jRwJvV9o9jy/CsWyKEcdIGdqgXjCac=
 github.com/gogf/gf/contrib/registry/file/v2 v2.9.5 h1:dVcBRbsezO9M6b1yKbCmUg8sjn0an+50XRIVp7mexx0=
