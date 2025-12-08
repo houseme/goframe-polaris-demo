@@ -5,7 +5,7 @@ go 1.24.0
 toolchain go1.24.1
 
 require (
-	github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.5
+	github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.6
 	github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.5
 	github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.6
 	github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.9.5
