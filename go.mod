@@ -9,7 +9,7 @@ require (
 	github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.5
 	github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.5
 	github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.9.5
-	github.com/gogf/gf/v2 v2.9.5
+	github.com/gogf/gf/v2 v2.9.6
 	github.com/polarismesh/polaris-go v1.6.1
 	google.golang.org/grpc v1.77.0
 	google.golang.org/protobuf v1.36.10
@@ -24,7 +24,7 @@ require (
 	github.com/coreos/go-semver v0.3.1 // indirect
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
 	github.com/dlclark/regexp2 v1.11.4 // indirect
-	github.com/emirpasic/gods v1.18.1 // indirect
+	github.com/emirpasic/gods/v2 v2.0.0-alpha // indirect
 	github.com/fatih/color v1.18.0 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
