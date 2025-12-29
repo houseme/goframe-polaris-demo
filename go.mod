@@ -9,7 +9,7 @@ require (
 	github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.6
 	github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.6
 	github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.9.6
-	github.com/gogf/gf/v2 v2.9.6
+	github.com/gogf/gf/v2 v2.9.7
 	github.com/polarismesh/polaris-go v1.6.1
 	google.golang.org/grpc v1.77.0
 	google.golang.org/protobuf v1.36.11
