@@ -262,8 +262,8 @@ github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.7 h1:bej4FKMcmsqjg5KDAzBUJXQ
 github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.7/go.mod h1:kFtfFuJHsIwyUc8LIUypgAvz8rVu6DURga+7+ife544=
 github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.9.7 h1:OVmhKDZxVDrjb8/pzblguxZ0SF718Svu3N3o8lFgDDA=
 github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.9.7/go.mod h1:2VXTQpKnGd7r51mWBgH5KzjAujaFJxzojZoVrydaX3I=
-github.com/gogf/gf/v2 v2.9.7 h1:Vp3VGZ7drPs89tZslT6j6BKBTaw7Xs3DMGWx4MlVtMA=
-github.com/gogf/gf/v2 v2.9.7/go.mod h1:Svl1N+E8G/QshU2DUbh/3J/AJauqCgUnxHurXWR4Qx0=
+github.com/gogf/gf/v2 v2.9.8 h1:El0HwksTzeRk0DQV4Lh7S9DbsIwKInhHSHGcH7qJumM=
+github.com/gogf/gf/v2 v2.9.8/go.mod h1:Svl1N+E8G/QshU2DUbh/3J/AJauqCgUnxHurXWR4Qx0=
 github.com/gogo/protobuf v1.1.1/go.mod h1:r8qH/GZQm5c6nD/R0oafs1akxWv10x8SbQlK7atdtwQ=
 github.com/gogo/protobuf v1.3.2 h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=
 github.com/gogo/protobuf v1.3.2/go.mod h1:P1XiOD3dCwIKUDQYPy72D8LYyHL2YPYrpS2s69NZV8Q=
