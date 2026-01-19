@@ -252,8 +252,8 @@ github.com/go-sql-driver/mysql v1.8.1 h1:LedoTUt/eveggdHS9qUFC1EFSa8bU2+1pZjSRpv
 github.com/go-sql-driver/mysql v1.8.1/go.mod h1:wEBSXgmK//2ZFJyE+qWnIsVGmvmEKlqwuVSjsCm7DZg=
 github.com/go-stack/stack v1.8.0/go.mod h1:v0f6uXyyMGvRgIKkXu+yp6POWl0qKG85gN/melR3HDY=
 github.com/godbus/dbus/v5 v5.0.4/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
-github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.7 h1:fY8b8CDRaG0o6+Va1pn5cxcrLCaOdvOnuCwEvFx0xf0=
-github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.7/go.mod h1:mAdAYnp/e1O3ftP4PZH3QZl64OO2CSX2/P/1aru8udg=
+github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.8 h1:XZ4Ya/50xpjf81+4genr33iJXR2dxJmqYKxGyXlLRqA=
+github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.8/go.mod h1:wtm2NJb/L3CbDOmyUc7TsOpWHTCMakg1QRG7B/oKrRs=
 github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.7 h1:50z0iD8nT9cz8p5F6JsxQyaF7P8NLElxD7dTla2D/m0=
 github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.7/go.mod h1:BHxly08AJtEcsi4rTXQBpWtyGEHu5R00TY/b3vdzMzg=
 github.com/gogf/gf/contrib/registry/file/v2 v2.9.7 h1:pm6jctojfpI6uqSp/oHtkFFKlj4wZ/DccpQtbc5fb9k=
@@ -262,8 +262,8 @@ github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.7 h1:bej4FKMcmsqjg5KDAzBUJXQ
 github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.7/go.mod h1:kFtfFuJHsIwyUc8LIUypgAvz8rVu6DURga+7+ife544=
 github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.9.7 h1:OVmhKDZxVDrjb8/pzblguxZ0SF718Svu3N3o8lFgDDA=
 github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.9.7/go.mod h1:2VXTQpKnGd7r51mWBgH5KzjAujaFJxzojZoVrydaX3I=
-github.com/gogf/gf/v2 v2.9.7 h1:Vp3VGZ7drPs89tZslT6j6BKBTaw7Xs3DMGWx4MlVtMA=
-github.com/gogf/gf/v2 v2.9.7/go.mod h1:Svl1N+E8G/QshU2DUbh/3J/AJauqCgUnxHurXWR4Qx0=
+github.com/gogf/gf/v2 v2.9.8 h1:El0HwksTzeRk0DQV4Lh7S9DbsIwKInhHSHGcH7qJumM=
+github.com/gogf/gf/v2 v2.9.8/go.mod h1:Svl1N+E8G/QshU2DUbh/3J/AJauqCgUnxHurXWR4Qx0=
 github.com/gogo/protobuf v1.1.1/go.mod h1:r8qH/GZQm5c6nD/R0oafs1akxWv10x8SbQlK7atdtwQ=
 github.com/gogo/protobuf v1.3.2 h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=
 github.com/gogo/protobuf v1.3.2/go.mod h1:P1XiOD3dCwIKUDQYPy72D8LYyHL2YPYrpS2s69NZV8Q=
