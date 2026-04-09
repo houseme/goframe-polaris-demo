@@ -5,9 +5,9 @@ go 1.25.0
 require (
 	github.com/gogf/gf/contrib/drivers/mysql/v2 v2.9.7
 	github.com/gogf/gf/contrib/registry/etcd/v2 v2.9.7
-	github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.7
+	github.com/gogf/gf/contrib/registry/polaris/v2 v2.9.8
 	github.com/gogf/gf/contrib/rpc/grpcx/v2 v2.9.7
-	github.com/gogf/gf/v2 v2.9.7
+	github.com/gogf/gf/v2 v2.9.8
 	github.com/polarismesh/polaris-go v1.6.1
 	google.golang.org/grpc v1.79.3
 	google.golang.org/protobuf v1.36.11
